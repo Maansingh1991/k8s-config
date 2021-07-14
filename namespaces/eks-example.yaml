@@ -4,3 +4,10 @@ metadata:
   labels:
     name: eks-example
   name: eks-example
+EOFcat << EOF > namespaces/eks-example.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    name: eks-example
+  name: eks-example
